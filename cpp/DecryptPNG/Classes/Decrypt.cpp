@@ -38,7 +38,10 @@ void DecryptPNG(const std::vector<std::string> &filelist, const aes_key &key)
 			}
 		}
 
-		std::ofstream out_file(path::splitext(filename)[0] + ".png", std::ios::binary);
+		std::ofstream out_file(path::splitext(filename)[0] + "_e.png", std::ios::binary);
+
+
+
 		if (!out_file.is_open())
 		{
 			std::cerr << "创建" << path::splitext(filename)[1] << ".png" << " 失败！" << std::endl;

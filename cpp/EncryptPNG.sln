@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecryptPNG", "DecryptPNG\DecryptPNG.vcxproj", "{4E1D809C-0A21-45DF-A913-FC3DB7B751FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD461731-D2E0-4C28-A74E-1C618904260A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EncryptPNG", "EncryptPNG\EncryptPNG.vcxproj", "{FB025EE5-2191-4D11-84EF-800D637026FD}"
 EndProject
@@ -14,7 +16,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4E1D809C-0A21-45DF-A913-FC3DB7B751FA}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4E1D809C-0A21-45DF-A913-FC3DB7B751FA}.Debug|Win32.Build.0 = Debug|Win32
 		{4E1D809C-0A21-45DF-A913-FC3DB7B751FA}.Release|Win32.ActiveCfg = Release|Win32
 		{4E1D809C-0A21-45DF-A913-FC3DB7B751FA}.Release|Win32.Build.0 = Release|Win32
 		{FB025EE5-2191-4D11-84EF-800D637026FD}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -24,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D17555A-1798-4204-A303-786D7E9821DD}
 	EndGlobalSection
 EndGlobal
